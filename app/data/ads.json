@@ -1,0 +1,12 @@
+[
+  { "id": "w1", "packageName": "WhatsApp Link & Write Up", "price": 3000, "duration": "24 Hours", "description": "Link and accompanying write up shared to our WhatsApp audience." },
+  { "id": "w2", "packageName": "WhatsApp Link + Write Up + Video", "price": 4000, "duration": "24 Hours", "description": "Includes a 1-minute video + write up and link." },
+  { "id": "p48", "packageName": "Premium WhatsApp 48hrs", "price": 5000, "duration": "48 Hours", "description": "Premium placement on WhatsApp channels for 48 hours." },
+  { "id": "p72", "packageName": "Premium WhatsApp 72hrs", "price": 6000, "duration": "72 Hours", "description": "Premium placement on WhatsApp channels for 72 hours." },
+  { "id": "week", "packageName": "One Week Promotion", "price": 13000, "duration": "7 Days", "description": "One week featured promotion across channels." },
+  { "id": "2week", "packageName": "Two Weeks Promotion", "price": 20000, "duration": "14 Days", "description": "Two week featured promotion across channels." },
+  { "id": "fb1", "packageName": "Facebook/Instagram ₦20k Package", "price": 20000, "duration": "Custom", "description": "Ad budget ₦2,000 — reach estimate 5,000" },
+  { "id": "fb2", "packageName": "Facebook/Instagram ₦25k Package", "price": 25000, "duration": "Custom", "description": "Ad budget ₦5,000 — reach estimate 16,000" },
+  { "id": "shout", "packageName": "Birthday Shout-Out", "price": 20000, "duration": "N/A", "description": "Personalised shout-out on our channels." },
+  { "id": "edit", "packageName": "Birthday Video Edit", "price": 30000, "duration": "N/A", "description": "Custom birthday video edit." }
+]

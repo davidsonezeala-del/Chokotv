@@ -1,0 +1,4 @@
+[
+  { "id": "o1", "userId": "u2", "serviceId": "w1", "amount": 3000, "paymentStatus": "paid", "createdAt": "2026-06-14T10:00:00.000Z" },
+  { "id": "o2", "userId": "u2", "serviceId": "p48", "amount": 5000, "paymentStatus": "pending", "createdAt": "2026-06-13T14:30:00.000Z" }
+]

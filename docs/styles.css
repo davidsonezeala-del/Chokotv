@@ -1,0 +1,13 @@
+/* Minimal styles for the static docs site */
+:root{--accent:#ff4d4f}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#0f172a; background:#f8fafc}
+.wrap{max-width:960px;margin:0 auto;padding:24px}
+.site-hero{background:linear-gradient(90deg,#0ea5a4,#7c3aed);color:#fff;padding:40px 0;margin-bottom:24px}
+.site-hero h1{margin:0;font-size:2rem}
+.site-hero .tag{opacity:.95;margin-top:6px}
+.posts{display:flex;flex-direction:column;gap:18px}
+.post{background:#fff;padding:16px;border-radius:8px;box-shadow:0 1px 3px rgba(2,6,23,.06)}
+.post h3{margin:0 0 8px 0}
+.excerpt{margin:0 0 8px 0;color:#334155}
+.meta{font-size:.9rem;color:#6b7280}
+footer{margin-top:32px;font-size:.9rem;color:#374151}

@@ -11,10 +11,8 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-path: ${{ steps.upload.outputs.artifact-path }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,14 +21,9 @@ jobs:
         run: echo "Publishing static docs/ directory"
 
       - name: Upload artifact
-        id: upload
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./docs
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1

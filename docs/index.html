@@ -3,51 +3,168 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ChokoTv — Static Snapshot</title>
+  <title>ChokoTV | Premium Entertainment Hub</title>
+  <meta name="description" content="ChokoTV premium entertainment website: celebrity news, viral content, ads packages, WhatsApp memes and stickers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="ChokoTv — Static snapshot served from GitHub Pages" />
 </head>
 <body>
-  <header class="site-hero">
-    <div class="wrap">
-      <h1>ChokoTv</h1>
-      <p class="tag">Static preview (GitHub Pages) — dynamic features disabled</p>
-      <p class="meta">Repository: <a href="https://github.com/davidsonezeala-del/Chokotv">davidsonezeala-del/Chokotv</a></p>
-    </div>
+  <header class="navbar">
+    <a class="logo" href="#home">CHOKOTV</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#news">News</a>
+      <a href="#ads">Advertise</a>
+      <a href="#memes">Memes</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main class="wrap">
-    <section>
-      <h2>Latest Stories</h2>
-      <div class="posts">
-        <article class="post">
-          <h3>Davido Drops Surprise Album</h3>
-          <p class="excerpt">Davido releases a surprise album with chart-topping features and production.</p>
-          <p class="meta">Music • ChokoTv — 2026-06-14</p>
-        </article>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content fade-up">
+        <h1>Putting Smiles On Your Face Through <span>Entertainment</span></h1>
+        <p>Get the latest celebrity news, music updates, movies, lifestyle trends and viral stories.</p>
+        <div class="hero-actions">
+          <a href="#ads" class="hero-btn">Advertise With Us</a>
+          <a href="https://wa.me/2348100000000?text=Hello%20ChokoTV%2C%20I%20want%20to%20pay%20for%20an%20upgrade." class="hero-btn secondary" target="_blank" rel="noopener noreferrer">Pay For Upgrade</a>
+        </div>
+      </div>
+    </section>
 
-        <article class="post">
-          <h3>Wizkid Announces World Tour</h3>
-          <p class="excerpt">Wizkid confirms dates for a global tour, fans react.</p>
-          <p class="meta">Music • ChokoTv — 2026-06-13</p>
-        </article>
+    <div class="ticker-wrap" aria-label="Breaking headlines">
+      <div class="ticker">Davido Latest News • Burna Boy World Tour • Wizkid Updates • Nollywood Trends • Celebrity Gossip • ChokoTV Entertainment • Viral WhatsApp Memes • Comedy Stickers</div>
+    </div>
 
-        <article class="post">
-          <h3>Burna Boy Wins International Award</h3>
-          <p class="excerpt">Burna Boy takes home a major international music prize.</p>
-          <p class="meta">News • ChokoTv — 2026-06-12</p>
+    <section id="news" class="blog-section">
+      <div class="section-title fade-up">
+        <h2>Hot <span>Entertainment Stories</span></h2>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card fade-up">
+          <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80" alt="Concert lights and crowd" />
+          </div>
+          <div class="blog-content">
+            <h3>Afrobeats Weekend Takes Over Lagos</h3>
+            <p>Massive performances, trending dance challenges and back-to-back celebrity appearances.</p>
+          </div>
+        </article>
+        <article class="blog-card fade-up">
+          <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1200&q=80" alt="DJ mixing on stage" />
+          </div>
+          <div class="blog-content">
+            <h3>Top 10 Viral Songs This Week</h3>
+            <p>See the songs dominating WhatsApp statuses, TikTok reels and party playlists.</p>
+          </div>
+        </article>
+        <article class="blog-card fade-up">
+          <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80" alt="Cinema and movie lights" />
+          </div>
+          <div class="blog-content">
+            <h3>Nollywood New Drops To Watch</h3>
+            <p>Fresh cinema releases and streaming picks you can binge this weekend.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section>
-      <h2>About this snapshot</h2>
-      <p>This is a simple static snapshot created so you have a live GitHub Pages link while the full backend and dynamic deployment are configured. Logins, payments and server-backed content are not active here.</p>
+    <section id="ads" class="pricing-section">
+      <div class="section-title fade-up">
+        <h2>Advertise On <span>ChokoTV</span></h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="ad-card fade-up">
+          <h3>Starter Blast</h3>
+          <p class="ad-price">N15,000</p>
+          <ul>
+            <li>1 Day Broadcast</li>
+            <li>Story + Status Push</li>
+            <li>Basic Poster Design</li>
+          </ul>
+          <a class="ad-btn" href="https://wa.me/2348100000000?text=I%20want%20to%20pay%20for%20Starter%20Blast%20on%20ChokoTV" target="_blank" rel="noopener noreferrer">Pay & Book</a>
+        </article>
+        <article class="ad-card fade-up featured">
+          <h3>Premium Reach</h3>
+          <p class="ad-price">N45,000</p>
+          <ul>
+            <li>3 Days Campaign</li>
+            <li>Priority Audience Target</li>
+            <li>Video + Banner Placement</li>
+          </ul>
+          <a class="ad-btn" href="https://wa.me/2348100000000?text=I%20want%20to%20pay%20for%20Premium%20Reach%20on%20ChokoTV" target="_blank" rel="noopener noreferrer">Pay & Book</a>
+        </article>
+        <article class="ad-card fade-up">
+          <h3>Ultimate Domination</h3>
+          <p class="ad-price">N95,000</p>
+          <ul>
+            <li>7 Days Full Coverage</li>
+            <li>Multiple Daily Reposts</li>
+            <li>Influencer Add-On Slot</li>
+          </ul>
+          <a class="ad-btn" href="https://wa.me/2348100000000?text=I%20want%20to%20pay%20for%20Ultimate%20Domination%20on%20ChokoTV" target="_blank" rel="noopener noreferrer">Pay & Book</a>
+        </article>
+      </div>
     </section>
 
-    <footer>
-      <p>Preview hosted via GitHub Pages — <a href="https://github.com/davidsonezeala-del/Chokotv">source</a></p>
-    </footer>
+    <section id="memes" class="video-section">
+      <div class="section-title fade-up">
+        <h2>WhatsApp Memes & <span>Funny Stickers</span></h2>
+      </div>
+      <div class="video-grid">
+        <article class="video-card fade-up">
+          <div class="video-thumbnail">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Friends laughing together" />
+            <div class="play-btn" aria-hidden="true">LOL</div>
+          </div>
+          <div class="video-content">
+            <h3>Office Wahala Sticker Pack</h3>
+            <p>Over 50 hilarious reaction stickers for your daily chats.</p>
+          </div>
+        </article>
+        <article class="video-card fade-up">
+          <div class="video-thumbnail">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80" alt="Comedy crowd and spotlight" />
+            <div class="play-btn" aria-hidden="true">ROFL</div>
+          </div>
+          <div class="video-content">
+            <h3>Naija Family Group Memes</h3>
+            <p>Weekly meme drops made for every family group chat chaos moment.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="newsletter">
+      <div class="section-title fade-up">
+        <h2>Join The <span>VIP Broadcast</span></h2>
+      </div>
+      <p>Get first access to trends, ad slots and comedy content in your inbox.</p>
+      <form action="#" method="post">
+        <label for="email" class="sr-only">Email address</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="pay-note">Need instant upgrade payment? <a href="https://wa.me/2348100000000?text=I%20want%20to%20pay%20for%20my%20upgrade" target="_blank" rel="noopener noreferrer">Click here to pay on WhatsApp</a>.</p>
+    </section>
   </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <p class="footer-logo">CHOKOTV</p>
+        <p>Nigeria's premium WhatsApp entertainment and digital promo platform.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#news">Latest News</a>
+        <a href="#ads">Ad Packages</a>
+        <a href="#memes">Memes & Stickers</a>
+        <a href="https://github.com/davidsonezeala-del/Chokotv" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
